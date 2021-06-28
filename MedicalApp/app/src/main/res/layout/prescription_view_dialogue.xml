@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_margin="40dp"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="VIEW PRESCRIPTION"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_medicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDICINE NAME:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START DATE:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="END DATE:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_prescribedDosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRESCRIBED DOSAGE:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SET TIME:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPEATING DAYS OF WEEK:"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tb_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="MON"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="TUE"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="WED"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="THU"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="FRI"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="SAT"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/tb_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="ToggleButton"
+            android:textOff="SUN"
+            android:textOn="☑"
+            android:textSize="7sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_currentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CURRENT AMOUNT: 0"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_reduceAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_addAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

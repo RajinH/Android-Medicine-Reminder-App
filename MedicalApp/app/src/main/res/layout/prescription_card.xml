@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_medicineName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Prescription"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_expiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Expiry Date: 12/12/12"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_removePrescription"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_close_black_24dp"
+            android:tint="@color/design_default_color_background"
+            tools:src="@drawable/ic_close_black_24dp"
+            tools:srcCompat="@drawable/ic_close_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

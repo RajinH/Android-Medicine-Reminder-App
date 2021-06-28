@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/allerta</item>
+        <item>@font/antic</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/doppio_one</item>
+        <item>@font/martel_sans_extrabold</item>
+        <item>@font/mitr</item>
+        <item>@font/quicksand_light</item>
+        <item>@font/titillium_web</item>
+        <item>@font/work_sans</item>
+    </array>
+</resources>
